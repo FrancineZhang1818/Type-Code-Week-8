@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 8</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="rhino">hellooooooo</div>
+
+    <button id="Gabriel">CLICK MEEEEE</button>
+    <button id="Bird">CLICK MEEEEE AFTER!!!</button>
+
+    <script>
+        function big(){
+rhino.textContent="gaga"
+// rhino.style.backgroundColor='lightblue'
+rhino.style.fontSize=Math.random()*100+"px"
+rhino.classList.add('broccoli')
+        }
+
+function small(){
+rhino.textContent="wiwi"
+// rhino.style.backgroundColor='pink'
+rhino.style.fontSize=Math.random()*100+"px"
+rhino.classList.add('flower')
+
+    }
+
+    Gabriel.addEventListener('click',big)
+    Bird.addEventListener('click',small)
+
+//     big()
+//     setTimeout(big,1000)
+// setInterval(big,1000)
+
+
+    </script>
+    
+
+
+
+</body>
+</html>

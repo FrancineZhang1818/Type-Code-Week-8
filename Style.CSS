@@ -1,0 +1,32 @@
+*{
+    margin:20px;
+    padding:20px;
+    box-sizing:border-box;
+}
+
+body{
+    margin:10px;
+    background-color:white;
+    font-family:serif;
+}
+
+#rhino{
+    height:100px;
+}
+
+.broccoli{
+    color:lightgreen;
+    border-radius:500px;
+    background-color:darkgreen !important;
+    width:290px;
+    position:center;
+}
+
+.flower{
+    color:rgb(252, 188, 243);
+    border-radius:500px;
+    background-color:purple !important;
+   width:290px;
+   position:center;
+}
+
